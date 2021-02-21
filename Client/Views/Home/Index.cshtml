@@ -11,10 +11,10 @@
     <div class="form-group">  
   
   
-        <table class="table table-responsive" style="width:400px">  
+        <table class="table table-responsive" style="width:1000px">  
             <tr>  
                 <th>  
-                    @Html.DisplayNameFor(model => model.name)  
+                    albums 
                 </th>  
                 
                   
@@ -25,7 +25,7 @@
                     <td>  
                         <button class="accordion">@Html.DisplayFor(modelItem => item.name) </button>  
                         <div class="panel">
-                         <table class="table table-responsive" style="width:400px">
+                         <table class="table table-responsive" style="width:1000px">
                              <tr>
                                  <th>
                                      photo
@@ -58,9 +58,13 @@
                                              
                                              @foreach (var itemComments in itemPhoto.comments)
                                              {
-                                                 <option>
-                                                @Html.DisplayFor(model => itemComments.datePublish)  @Html.DisplayFor(model => itemComments.content)
-                                                 </option>
+                                                 
+                                              @if (itemPhoto.comments != null)
+                                              {
+                                                  <option>
+                                                  @Html.DisplayFor(model => itemComments.datePublish)  @Html.DisplayFor(model => itemComments.content) 
+                                                                                                       </option>
+                                              } 
                                              }
                                              </select>
                                              </td>
