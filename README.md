@@ -9,17 +9,25 @@ Este proyecto es un examen
 
 ### Pre-requisitos 📋
 
-
-
 ```
 dotnet core en cualquiera de sus versiones
 ```
 ```
 
 
-### Instalación 🔧
+### Ejecución🔧
+```
+ubicarse en el proyecto ApiProject y ejecutarlo en el puerto 5003: dotnet run --urls=http://localhost:5003
 
-son 3 proyectos con una arquitectura en N capas, consta de Una app MVC, web API y un test Api para las pruebas de integracion
+```
+
+```
+ubicarse en el proyecto client  y ejecutarlo de manera predeterminada: http://localhost:5000/
+
+```
+
+```
+ubicarse en el proyecto TestController para ejecutar las pruebas de integración
 
 ```
 
@@ -30,7 +38,7 @@ son 3 proyectos con una arquitectura en N capas, consta de Una app MVC, web API 
 
 
 
-## Deployment 📦
+
 
 Building
 ## Construido con 🛠️
@@ -65,10 +73,7 @@ Todos los archivos contenidos en este repositorio fueron liberados bajo la Licen
 
 ## Expresiones de Gratitud 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+* Muchas gracias por la oportunidad Bertoni Solutions.
 
 
 
