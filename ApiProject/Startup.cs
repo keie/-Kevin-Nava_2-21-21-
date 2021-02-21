@@ -34,7 +34,7 @@ namespace ApiProject
             services.AddTransient<IPhotoCommentsLogic, PhotoCommentsLogic>();
             services.AddTransient<IPhotoAlbumLogic, PhotoAlbumLogic>();
             services.AddTransient<IAlbumLogic, AlbumLogic>();
-            services.AddTransient<IUsersLogic, UsersLogic>();
+            
             services.AddSingleton<IUnitOfWork>(option => new UnitOfWork(
                 Configuration.GetConnectionString("keola_sandbox")
                 //  Configuration.GetConnectionString ("multi-level")

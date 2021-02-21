@@ -35,7 +35,7 @@ son 3 proyectos con una arquitectura en N capas, consta de Una app MVC, web API 
 Building
 ## Construido con 🛠️
 
-Las herramienta susadas:
+Las herramienta usadas:
 
 * dotnet core MVC y sql server
 
